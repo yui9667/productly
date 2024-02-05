@@ -130,7 +130,6 @@ li a {
 h2 {
   font-size: 36px;
   letter-spacing: 1px;
-  padding-bottom: 10px;
 }
 
 .tools_contanier {
@@ -148,6 +147,7 @@ h2 {
   font-weight: bold;
   letter-spacing: 1px;
 }
+
 /*section2 Design Professionals, section4 Marketers*/
 .desgin_professionals_container,
 .marketers_container {
