@@ -1,1 +1,221 @@
-body{font-family:Poppins,sans-serif;color:#2f281e}:root{--btn:#f90}p{color:#544837}.nav_bar{padding:30px 15px}.nav_container{display:flex;align-items:center;justify-content:space-around}li{list-style:none;display:inline-block;justify-self:center}li,li a{margin:10px}li a{text-decoration:none;font-size:15px;color:#2f281e}.btn{color:#173a56;padding:15px 25px;margin-right:15px;border-radius:5px;background-color:#fff;border:1px solid #bcd0e5;font-weight:700;font-size:13px}.signin a{color:#173a56;text-decoration:none}.signin{transition:1s ease-in-out}.signin:hover{background-color:#3f9ae4;transform:rotate(20deg)}.signup_1{background-color:var(--btn);border-style:none;transition:1s ease-in-out}.signup_1 a{color:#fff;text-decoration:none}.signup_1:hover{background-color:#f3c11b;transform:rotate(-20deg)}.header_container{display:flex;margin:10%}.header_design h1{font-weight:700;letter-spacing:2px;font-size:44px;color:#2f281e;padding-bottom:10px}.header_design p{font-size:18px;font-weight:400;letter-spacing:2px;margin-right:15px}.header_btn,.signup_2,.tool_btn{color:#fff;background-color:var(--btn);padding:20px 30px;border-radius:5px;font-weight:700;border:1px solid;letter-spacing:1px;box-shadow:0 6px 0;transition:color .3s,background .3s,box-shadow .3s,transform .3s}.btn_container{display:flex;padding:20px}.btn_container img{padding-left:20px}.btn_container h4{color:#f90;text-decoration:underline;padding-left:10px}.header_btn:hover,.signup_2:hover,.tool_btn:hover{background-color:#fff;color:#f90;box-shadow:0 3px 0,0 6px rgba(0,0,0,.2);transform:translateY(3px)}.desgin_tools{text-align:center}h2{padding-left:25%;max-width:600px;width:100%;background-color:#f3c11b;font-size:36px;letter-spacing:1px}.tools_contanier{display:flex;text-align:start;margin:10%;letter-spacing:1px}.tool_box{width:100%;margin:3%}.tool_box h3{font-weight:700;letter-spacing:1px}.desgin_professionals_container,.marketers_container{display:flex;text-align:justify;margin:10%;gap:5%;line-height:1.5rem}.product_managers_container{position:relative}.product_box{position:absolute;left:45%;letter-spacing:1px;margin:5% 10% 0 6%}.check_container{position:relative;padding-bottom:20px;padding-left:50px}.check_container:before{content:"";position:absolute;width:28px;height:28px;background-image:url(/images/check.svg);background-size:cover;left:1px}.img_container1,footer{margin:10%}footer{border-top:1px solid #bcd0e5}.logo_footer{padding-top:10%}.footer_container{display:flex;justify-content:flex-end;gap:10%}.footer_box1,.footer_box2{display:flex;flex-direction:column}.input_btn_container{padding:20px}input{display:block;width:300px;height:45px;border-radius:5px;border:1px solid #bcd0e5}.signup_2{margin-top:23px;display:block;padding:10px 20px}
+body {
+  font-family: Poppins, sans-serif;
+  color: #2f281e;
+}
+:root {
+  --btn: #f90;
+}
+p {
+  color: #544837;
+}
+.nav_bar {
+  padding: 30px 15px;
+}
+.nav_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  justify-self: center;
+}
+li,
+li a {
+  margin: 10px;
+}
+li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #2f281e;
+}
+.btn {
+  color: #173a56;
+  padding: 15px 25px;
+  margin-right: 15px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #bcd0e5;
+  font-weight: 700;
+  font-size: 13px;
+}
+.signin a {
+  color: #173a56;
+  text-decoration: none;
+}
+.signin {
+  transition: 1s ease-in-out;
+}
+.signin:hover {
+  background-color: #3f9ae4;
+  transform: rotate(20deg);
+}
+.signup_1 {
+  background-color: var(--btn);
+  border-style: none;
+  transition: 1s ease-in-out;
+}
+.signup_1 a {
+  color: #fff;
+  text-decoration: none;
+}
+.signup_1:hover {
+  background-color: #f3c11b;
+  transform: rotate(-20deg);
+}
+.header_container {
+  display: flex;
+  margin: 10%;
+}
+.header_design h1 {
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 44px;
+  color: #2f281e;
+  padding-bottom: 10px;
+}
+.header_design p {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-right: 15px;
+}
+.header_btn,
+.signup_2,
+.tool_btn {
+  color: #fff;
+  background-color: var(--btn);
+  padding: 20px 30px;
+  border-radius: 5px;
+  font-weight: 700;
+  border: 1px solid;
+  letter-spacing: 1px;
+  box-shadow: 0 6px 0;
+  transition: color 0.3s, background 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+.btn_container {
+  display: flex;
+  padding: 20px;
+}
+.btn_container img {
+  padding-left: 20px;
+}
+.btn_container h4 {
+  color: #f90;
+  text-decoration: underline;
+  padding-left: 10px;
+}
+.header_btn:hover,
+.signup_2:hover,
+.tool_btn:hover {
+  background-color: #fff;
+  color: #f90;
+  box-shadow: 0 3px 0, 0 6px rgba(0, 0, 0, 0.2);
+  transform: translateY(3px);
+}
+.desgin_tools {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  text-align: center;
+  max-width: 900px;
+  padding: 15px 0px;
+  width: 100%;
+  background-color: #f3c11b;
+  font-size: 36px;
+  letter-spacing: 1px;
+}
+.tools_contanier {
+  display: flex;
+  text-align: start;
+  margin: 10%;
+  letter-spacing: 1px;
+}
+.tool_box {
+  width: 100%;
+  gap: 30px;
+}
+.tool_box h3 {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.desgin_professionals_container,
+.marketers_container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 20px;
+  gap: 20px;
+  line-height: 1.5rem;
+}
+.desgin_desgin_professionals_box,
+.product_box,
+.marketers_box {
+  width: 100%;
+  max-width: 600px;
+}
+/* section desgin professionals container */
+.product_managers_container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.check_container {
+  position: relative;
+  padding-bottom: 20px;
+  padding-left: 50px;
+}
+.check_container:before {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  background-image: url(/images/check.svg);
+  background-size: cover;
+  left: 1px;
+}
+.img_container1 {
+  margin: 10px;
+}
+
+/*Footer*/
+footer {
+  border-top: 1px solid #bcd0e5;
+  margin: 20px;
+}
+.logo_footer {
+  padding-top: 10%;
+}
+.footer_container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10%;
+}
+.footer_box1,
+.footer_box2 {
+  display: flex;
+  flex-direction: column;
+}
+.input_btn_container {
+  padding: 20px;
+}
+input {
+  display: block;
+  width: 300px;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid #bcd0e5;
+}
+.signup_2 {
+  margin-top: 23px;
+  display: block;
+  padding: 10px 20px;
+}
